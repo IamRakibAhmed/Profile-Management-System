@@ -1,0 +1,285 @@
+address {
+    font-size: 1em;
+}
+
+abbr {
+    display: inline;
+    text-decoration: none;
+}
+
+h1 {
+    margin: auto;
+}
+
+h2 {
+    margin: auto;
+}
+
+p {
+    margin: auto;
+    font-size: 16px;
+}
+
+.page {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #212121;
+    color: #ffffff;
+}
+
+.inner_section {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-style: normal;
+}
+
+.intro {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.row_01, .row_02 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.project_items {
+    background: #fafafa;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project_items h2 {
+    color: #000000;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.project_items p {
+    color: #424242;
+    margin: 12px;
+    font-size: 0.95em;
+    font-style: italic;
+}
+
+.project_sc {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    object-fit: cover;
+}
+
+.picture_1 {
+    position: relative;
+    left: 640px;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    animation-name: anim_1;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.picture_2 {
+    position: relative;
+    left: 320px;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+    animation-name: anim_2;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.picture_3 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    animation-name: anim_3;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.picture_4 {
+    position: relative;
+    left: -320px;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+    animation-name: anim_4;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.picture_5 {
+    position: relative;
+    left: -640px;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    animation-name: anim_5;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.videodemo {
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 405px;
+    height: 720px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes anim_1 {
+    0% { }
+    10% { left: 960px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    20% { left: 960px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+
+    29% { z-index: -1; }
+    30% { left: 880px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    40% { left: 880px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    45% { left: 1200px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    50% { left: 800px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    60% { left: 800px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    
+    70% { left: 720px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    80% { left: 720px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    90% { left: 640px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    100% { left: 640px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+}
+
+@keyframes anim_2 {
+    0% { }
+    10% { left: 240px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    20% { left: 240px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    
+    30% { left: 560px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    40% { left: 560px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+
+    49% { z-index: -1; }
+    50% { left: 480px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    60% { left: 480px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    65% { left: 800px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    70% { left: 400px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    80% { left: 400px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    
+    90% { left: 320px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    100% { left: 320px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+}
+
+@keyframes anim_3 {
+    0% { }
+    10% { left: -80px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    20% { left: -80px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    30% { left: -160px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    40% { left: -160px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    
+    50% { left: 160px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    60% { left: 160px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+
+    69% { z-index: -1; }
+    70% { left: 80px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    80% { left: 80px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    
+    85% { left: 400px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    90% { left: 0px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    100% { left: 0px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+}
+
+@keyframes anim_4 {
+    0% { }
+    5% { left: 0px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    10% { left: -400px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    20% { left: -400px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+
+    30% { left: -480px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    40% { left: -480px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    
+    50% { left: -560px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    60% { left: -560px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    
+    70% { left: -240px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    80% { left: -240px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+
+    89% { z-index: -1; }
+    90% { left: -320px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    100% { left: -320px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+}
+
+@keyframes anim_5 {
+    0% { }
+    9% { z-index: -1; }
+    10% { left: -720px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    20% { left: -720px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    25% { left: -400px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    30% { left: -800px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    40% { left: -800px; height: 400px; width: 400px; z-index: 1; animation: linear; }
+    
+    50% { left: -880px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+    60% { left: -880px; height: 400px; width: 400px; z-index: 0; animation: linear; }
+
+    70% { left: -960px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    80% { left: -960px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    
+    90% { left: -640px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+    100% { left: -640px; height: 400px; width: 400px; z-index: -1; animation: linear; }
+}
+
+.videodemo {
+    margin-bottom: 50px;
+}
+
+.profile-picture {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 120px);
+    height: 240px;
+    width: 240px;
+    background-size: cover;
+    border-radius: 240px;
+    background-image: url("./img/photo-1557672172-298e090bd0f1.jpg");;
+}
+
+/* Gradient Source --> https://cssgradient.io/ */

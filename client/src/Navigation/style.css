@@ -1,0 +1,15 @@
+* {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hash-link {
+    text-decoration: none;
+}
+
+.hash-link:active {
+    color: white;
+}

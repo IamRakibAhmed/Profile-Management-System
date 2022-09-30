@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    color: #434d6d;
+    background-image: url(svg/cool-background.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a, .nav-link, .dropdown-item {
+    color: #434d6d;
+    font-weight: 500;
+}
+
+a:hover, .nav-link:hover, .dropdown-item:hover {
+    color: #e74c3c;
+}
+
+.header-background {
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.sticky-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 20px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+}
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Just Another Hand';
+    font-size: 4.2rem;
+    color: rgb(218, 72, 72);
+    margin-bottom: 1rem;
+}
+
+.dropdown-item {
+    position: relative;
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    background: #e74c3c;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+    margin-top: -1.5rem;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 16px;
+}
+
+.navbar-toggler span + span + span {
+    width: 11px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #e74c3c;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+}
+
+.btn:hover {
+    background-color: #0a3d62;
+    color: #fff;
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 1rem 6rem;
+    margin-top: 10rem;
+}
+
+.paragraph {
+    font-size: 2.2rem;
+    padding: 1rem 6rem;
+    font-weight: 500;
+}
+
+/* Project Slideshow */
+.swiper {
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.project_items {
+    background: #fafafa;
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project_items h2 {
+    color: #000000;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 1.5em;
+    font-family: 'Sen';
+}
+
+.project_items p {
+    color: #424242;
+    margin: 16px;
+    font-size: 0.85em;
+    font-family: 'Roboto';
+}
+
+.project_sc {
+    position: relative;
+    border-radius: 4px;
+    margin: 12px;
+    width: 276px;
+    height: 276px;
+    /* box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+}

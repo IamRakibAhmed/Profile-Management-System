@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>182011054</title>
+</head>
+<style>
+body {background-color: lightGray;}
+h1	 {color: red;}
+h2   {color: red;}
+h3   {color: red;}
+h3	 {margin-top: 50px;}
+h4 	 {color: red;}
+
+.container{
+		max-width:1200px;
+		margin:auto;
+		background:#$2$2$2;
+		overflow:auto;
+}
+.gallery{
+		margin:5px;
+		border:1px solid #ccc;
+		float:left;
+		width:390px;
+}
+.gallery img{
+		width:100%;
+		height:auto;
+}
+.desc{
+	padding:15px;
+	text-align:center;
+}
+div#slider {overflow:hidden}
+div#slider figure img {height: 100%; width:20%; float: left;}
+div#slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left:0;
+animation: 5s slider infinite;}
+
+@keyframes slider{
+0%{left:0%}
+20%{left:0%}
+25%{left:-100%}
+45%{left:-100%}
+50%{left:-200%}
+70%{left:-200%}
+75%{left:-300%}
+95%{left:-300%}
+100%{left:-400%}
+}	
+</style>
+
+<body>
+<h1 align="center"> PERSONAL DETAILS </h1>
+Name: Nishat Tabassum Mimi <br>
+Date of Birth: 10 January, 1999 <br>
+Address: Darul Aman, Flat-8D, 19/C, 2/1, Uttar Tolarbagh, Mirpur-1, Dhaka-1216 <br>
+Email Address: nishat.tabassum.bba@ulab.edu.bd <br>
+Contact Number: 01929586668 <br>
+
+<p align="left"> ABOUT ME </p>
+<p> At present, pursuing Bachelor of Business Administration (BBA) having concentration in Finance and minor in Computer Science and Engineering (CSE) at University of Liberal Arts Bangladesh. I am a quick learner, hard worker, and punctual. I am honest and sincere to my work. </p>
+
+
+<p align="left"> CONTACT DETAILS </p>
+<p><a href="https://www.facebook.com/nishat.tabassum.5/">Facebook</a> <a href="https://www.instagram.com/nishattabassummimi/">Instagram</a> <a href="https://twitter.com/nishattabassum2">Twitter</a> <a href="mailto:nishat.tabassum.bba@ulab.edu.bd">Email</a> </p>
+
+<h2 align="center"> PROJECT </h2>
+<p>
+<div class="container">
+	<div class="gallery">
+		<img src="Highway.png" alt="Highway.png">
+			<div class="desc"> Research on "Highway Toilet Facility for Women in Bangladesh"</div>
+	</div>
+	<div class="gallery">
+		<img src="Everest.png" alt="Everest.png">
+			<div class="desc">Assignment on India's no.1 spice brand "Everest" </div>
+	</div>
+
+</p>
+
+<h3 align="center"> GALLERY </h3>
+<div id="slider">
+<figure>
+<img src="1.jpg" alt="1.jpg">
+<img src="2.jpg" alt="2.jpg">
+<img src="3.jpg" alt="3.jpg">
+</figure>
+</div>
+	
+<h4 align="center"> VIDEO </h4>
+	<video height="500" width="500" controls>
+		<source src="E:\CSE480\profile\Nishat.mp4" type="video/mp4">
+	</video>
+	
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: #1591a1;}
+h1	 {color: #f4fcfe;}
+h2   {color: #f4fcfe;}
+h3   {color: #f4fcfe;}
+h3	 {margin-top: 50px;}
+h4 	 {color: red;}
+
+.container{
+		max-width:1200px;
+		margin:auto;
+		background:#$2$2$2;
+		overflow:auto;
+}
+.gallery{
+		margin:5px;
+		border:1px solid #ccc;
+		float:left;
+		width:390px;
+}
+.gallery img{
+		width:100%;
+		height:auto;
+}
+.desc{
+	padding:15px;
+	text-align:center;
+}
+div#slider {overflow:hidden}
+div#slider figure img {height:100%; width:20% ; float: left;}
+div#slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 10s slider infinite;}
+@keyframes slider{
+0%{left:0px}
+20%{left:0px}
+25%{left:-100%}
+45%{left:-100%}
+50%{left:-200%}
+70%{left:-200%}
+75%{left:-300%}
+95%{left:-300%}
+100%{left:-400%}
+}	
+</style>
+
+</body>
+</html>
+

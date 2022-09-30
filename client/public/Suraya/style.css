@@ -1,0 +1,681 @@
+/* html {
+	background: #3b5e4c;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-family: "Georgia";
+	color: rgb(255, 255, 255);
+} */
+
+/* address {
+	font-size: 1em;
+}
+
+abbr {
+	display: inline;
+	text-decoration: none;
+}
+
+h1 {
+	margin: auto;
+}
+
+h2 {
+	margin: auto;
+}
+
+p {
+	margin: auto;
+	font-size: 16px;
+}
+
+a {
+	margin: 6px;
+}
+
+a:link {
+	color: #18ffff;
+}
+
+a:visited {
+	color: #00b8d4;
+}
+
+a:hover {
+	color: #64ffda;
+}
+
+a:active {
+	color: #00bfa5;
+}
+
+.page {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inner_section {
+	margin-top: 100px;
+	margin-bottom: 40px;
+	font-style: normal;
+}
+
+.intro {
+	text-align: center;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+}
+
+.row_01,
+.row_02 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+*/
+
+.project_items {
+	background: #4253b1;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	width: 300px;
+	height: 450px;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.project_items h2 {
+	color: #000000;
+	margin-top: 12px;
+	margin-left: 16px;
+}
+
+.project_items p {
+	color: #424242;
+	margin: 12px;
+	font-size: 0.95em;
+	font-style: italic;
+}
+
+.project_sc {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.slideshow {
+	display: flex;
+	justify-content: center;
+}
+
+.picture {
+	position: relative;
+	width: 160px;
+	height: 160px;
+	border-radius: 2%;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	margin: auto;
+	object-fit: cover;
+}
+
+.picture_1 {
+	position: relative;
+	left: 640px;
+	height: 400px;
+	width: 400px;
+	z-index: -1;
+	animation-name: anim_1;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.picture_2 {
+	position: relative;
+	left: 320px;
+	height: 400px;
+	width: 400px;
+	z-index: 0;
+	animation-name: anim_2;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.picture_3 {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 400px;
+	width: 400px;
+	z-index: 1;
+	animation-name: anim_3;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.picture_4 {
+	position: relative;
+	left: -320px;
+	height: 400px;
+	width: 400px;
+	z-index: 0;
+	animation-name: anim_4;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.picture_5 {
+	position: relative;
+	left: -640px;
+	height: 400px;
+	width: 400px;
+	z-index: -1;
+	animation-name: anim_5;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.videodemo {
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	padding: 5px;
+	width: 400px;
+	height: 650px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+@keyframes anim_1 {
+	0% {
+	}
+	10% {
+		left: 960px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	20% {
+		left: 960px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	29% {
+		z-index: -1;
+	}
+	30% {
+		left: 880px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	40% {
+		left: 880px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	45% {
+		left: 1200px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	50% {
+		left: 800px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	60% {
+		left: 800px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+
+	70% {
+		left: 720px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	80% {
+		left: 720px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	90% {
+		left: 640px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	100% {
+		left: 640px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+}
+
+@keyframes anim_2 {
+	0% {
+	}
+	10% {
+		left: 240px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	20% {
+		left: 240px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	30% {
+		left: 560px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	40% {
+		left: 560px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	49% {
+		z-index: -1;
+	}
+	50% {
+		left: 480px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	60% {
+		left: 480px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	65% {
+		left: 800px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	70% {
+		left: 400px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	80% {
+		left: 400px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+
+	90% {
+		left: 320px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	100% {
+		left: 320px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+}
+
+@keyframes anim_3 {
+	0% {
+	}
+	10% {
+		left: -80px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	20% {
+		left: -80px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	30% {
+		left: -160px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	40% {
+		left: -160px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	50% {
+		left: 160px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	60% {
+		left: 160px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	69% {
+		z-index: -1;
+	}
+	70% {
+		left: 80px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	80% {
+		left: 80px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	85% {
+		left: 400px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	90% {
+		left: 0px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	100% {
+		left: 0px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+}
+
+@keyframes anim_4 {
+	0% {
+	}
+	5% {
+		left: 0px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	10% {
+		left: -400px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	20% {
+		left: -400px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+
+	30% {
+		left: -480px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	40% {
+		left: -480px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	50% {
+		left: -560px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	60% {
+		left: -560px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	70% {
+		left: -240px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	80% {
+		left: -240px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	89% {
+		z-index: -1;
+	}
+	90% {
+		left: -320px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	100% {
+		left: -320px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+}
+
+@keyframes anim_5 {
+	0% {
+	}
+	9% {
+		z-index: -1;
+	}
+	10% {
+		left: -720px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	20% {
+		left: -720px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	25% {
+		left: -400px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	30% {
+		left: -800px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+	40% {
+		left: -800px;
+		height: 400px;
+		width: 400px;
+		z-index: 1;
+		animation: linear;
+	}
+
+	50% {
+		left: -880px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+	60% {
+		left: -880px;
+		height: 400px;
+		width: 400px;
+		z-index: 0;
+		animation: linear;
+	}
+
+	70% {
+		left: -960px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	80% {
+		left: -960px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+
+	90% {
+		left: -640px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+	100% {
+		left: -640px;
+		height: 400px;
+		width: 400px;
+		z-index: -1;
+		animation: linear;
+	}
+}
+
+/* Gradient Source --> https://cssgradient.io/ */
+
+.typewriter h1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 0.15em; /* Adjust as needed */
+	animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: orange;
+	}
+}
